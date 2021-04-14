@@ -1,8 +1,8 @@
 {
   "name": "react-native-ts-atomic-template",
-  "version": "1.0.0",
-  "description": "React Native Template",
+  "version": "2.0.0",
+  "description": "React Native Atomic Typescript Template",
   "repository": "git@github.com:dev-ahmed/RNAtomicTemplate.git",
-  "author": "",
+  "author": "Ahmed Nabil <dev.ahmednabil@gmail.com>",
   "license": "ISC"
 }
