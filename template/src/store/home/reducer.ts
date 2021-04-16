@@ -3,7 +3,7 @@ const initialState = {
   list: [],
 };
 
-export const tempReducer: Reducer<any, any> = (
+export const homeReducer: Reducer<any, any> = (
   state = initialState,
   action,
 ) => {

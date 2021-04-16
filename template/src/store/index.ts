@@ -4,9 +4,10 @@ import {persistReducer} from 'redux-persist';
 import persistStore from 'redux-persist/es/persistStore';
 import thunk from 'redux-thunk';
 import {persistConfig} from '../configs/persistor-config';
-import {tempReducer} from './temp/reducer';
+import {settingsReducer} from './settings/reducer';
+import {homeReducer} from './home/reducer';
 
-const reducer = combineReducers({tempReducer});
+const reducer = combineReducers({settingsReducer, homeReducer});
 
 const persistedReducer = persistReducer(persistConfig, reducer);
 

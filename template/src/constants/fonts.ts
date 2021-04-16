@@ -1,4 +1,4 @@
-/* import {StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {calcFont} from '../utils/normalize';
 
 const SpaceMono = StyleSheet.create({
@@ -31,4 +31,4 @@ const headlines = StyleSheet.create({
   },
 });
 
-export const fonts = {SpaceMono, headlines}; */
+export const fonts = {SpaceMono, headlines};

@@ -1,4 +1,5 @@
 export enum ROUTES {
   TABS = 'Tabs',
-  HOME = 'HOME',
+  HOME = 'Home',
+  SETTINGS = 'Settings',
 }
